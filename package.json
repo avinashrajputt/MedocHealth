@@ -1,0 +1,23 @@
+{
+  "name": "medochealth-opd-token-system",
+  "version": "1.0.0",
+  "description": "OPD Token Allocation Engine with elastic capacity management",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "simulate": "node src/simulation.js",
+    "test": "node src/test.js"
+  },
+  "keywords": ["opd", "token", "hospital", "allocation", "healthcare"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
